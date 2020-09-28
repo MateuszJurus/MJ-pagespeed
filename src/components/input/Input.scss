@@ -1,0 +1,31 @@
+.input-wrapper {
+    display: block;
+    position: relative;
+    width: 100%;
+
+    .input {
+        width: 100%;
+        margin: 10px 0;
+        padding: 10px;
+        border: solid 1px rgb(224, 224, 224);
+        border-radius: 25px;
+        outline: none;
+    
+        &:focus {
+            border: solid 1px rgb(116, 216, 255);
+        }
+    
+        &[type="url"] {
+            position: relative;
+        }
+        &+.input--before {
+            font-size: 14px;
+            position: absolute;
+            top: 20px;
+            left: -50px;
+            letter-spacing: .5px;
+            user-select: none;
+            z-index: 100;
+        }
+    }
+}

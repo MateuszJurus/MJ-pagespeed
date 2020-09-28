@@ -1,0 +1,23 @@
+.button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: solid 1px #4780ff;
+    border-radius: 25px;
+    outline: none;
+    transition: .3s;
+
+    &.submit {
+        color: white;
+        background-color: #4780ff;
+    }
+
+    &:focus {
+        border: solid 1px #0f52e2;
+    }
+
+    &:hover {
+        cursor: pointer;
+        box-shadow: 10px 10px 30px -15px rgba(0,0,0,0.55);
+    }
+}

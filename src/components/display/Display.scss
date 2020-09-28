@@ -1,0 +1,15 @@
+@import '../../scss/variables.scss';
+
+.display {
+    &__image {
+        
+    }
+
+    & > p {
+        margin: 8px 0;
+    }
+
+    & a {
+        color: $col-blue;
+    }
+}

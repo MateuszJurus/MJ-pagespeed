@@ -1,0 +1,15 @@
+.storage {
+    &__list {
+        display: flex;
+        flex-flow: row wrap;
+        margin-bottom: 80px;
+    
+        .item {
+            margin: 10px;
+        }
+    }
+
+    &__header {
+        color: white;
+    }
+}
