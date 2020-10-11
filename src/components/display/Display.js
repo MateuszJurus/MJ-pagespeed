@@ -30,10 +30,4 @@ const Display = (props) => {
     )
 }
 
-const DisplayGoogle = data => {
-    return (
-        <p>{data}</p>
-    )
-}
-
 export default Display;

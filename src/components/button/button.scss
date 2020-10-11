@@ -5,7 +5,7 @@
     border: solid 1px #4780ff;
     border-radius: 25px;
     outline: none;
-    transition: .3s;
+    transition: .5s;
 
     &.submit {
         color: white;
@@ -19,5 +19,18 @@
     &:hover {
         cursor: pointer;
         box-shadow: 10px 10px 30px -15px rgba(0,0,0,0.55);
+    }
+
+    &.button--loading {
+        background-color: rgb(27, 27, 27);
+        color: #313030;
+        border-color: rgb(27, 27, 27);
+    }
+
+    &.button--saved {
+        background-color: rgb(27, 27, 27);
+        color: #55c40b;
+        border-color: rgb(27, 27, 27);
+        cursor: not-allowed;
     }
 }
